@@ -134,27 +134,6 @@
 <wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.2" layer="21"/>
 <circle x="-4.6" y="4" radius="0.2" width="0.4" layer="25"/>
 </package>
-<package name="TO254P525X740X825-3P">
-<description>&lt;b&gt;PL-IRM0101&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.84" diameter="1.26" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="0.84" diameter="1.26"/>
-<pad name="3" x="5.08" y="0" drill="0.84" diameter="1.26"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.535" y1="4.3" x2="6.615" y2="4.3" width="0.05" layer="51"/>
-<wire x1="6.615" y1="4.3" x2="6.615" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="6.615" y1="-1.45" x2="-1.535" y2="-1.45" width="0.05" layer="51"/>
-<wire x1="-1.535" y1="-1.45" x2="-1.535" y2="4.3" width="0.05" layer="51"/>
-<wire x1="-1.285" y1="4.05" x2="6.365" y2="4.05" width="0.1" layer="51"/>
-<wire x1="6.365" y1="4.05" x2="6.365" y2="-1.2" width="0.1" layer="51"/>
-<wire x1="6.365" y1="-1.2" x2="-1.285" y2="-1.2" width="0.1" layer="51"/>
-<wire x1="-1.285" y1="-1.2" x2="-1.285" y2="4.05" width="0.1" layer="51"/>
-<wire x1="-1.285" y1="2.78" x2="-0.015" y2="4.05" width="0.1" layer="51"/>
-<wire x1="6.365" y1="-1.2" x2="6.365" y2="4.05" width="0.2" layer="21"/>
-<wire x1="6.365" y1="4.05" x2="-1.285" y2="4.05" width="0.2" layer="21"/>
-<wire x1="-1.285" y1="4.05" x2="-1.285" y2="0" width="0.2" layer="21"/>
-</package>
 </packages>
 </library>
 </libraries>
@@ -361,78 +340,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATMEGA328P-AU?qs=K8BHR703ZXiCmmgp6%2FGNmQ%3D%3D" x="6.35" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.35" y="-6.35" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="6.35" y="-6.35" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC2" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="2.54" y="-16.51" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="2.54" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="2.54" y="-16.51" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="2.54" y="-16.51" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC3" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="1.27" y="-22.86" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="1.27" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="1.27" y="-22.86" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="1.27" y="-22.86" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC4" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="0" y="-29.21" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="0" y="-29.21" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0" y="-29.21" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="0" y="-29.21" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC5" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="-1.27" y="-35.56" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-1.27" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-1.27" y="-35.56" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-1.27" y="-35.56" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC6" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="-2.54" y="-41.91" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-2.54" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-2.54" y="-41.91" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-2.54" y="-41.91" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC7" library="SamacSys_Parts" package="TO254P525X740X825-3P" value="PL-IRM0101" x="-3.81" y="-48.26" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="INFRARED REMOTE CONTROL RECEIVER MODULE" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.25mm" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Para Light Electronics" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PL-IRM0101" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="-3.81" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.81" y="-48.26" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-3.81" y="-48.26" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
