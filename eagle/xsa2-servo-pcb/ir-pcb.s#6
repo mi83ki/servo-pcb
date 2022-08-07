@@ -9459,9 +9459,9 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/ap-en/product/bipolar-tr
 <attribute name="NAME" x="87.63" y="118.11" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="87.63" y="115.57" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="S1" gate="G$1" x="38.1" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.48" y="102.87" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="33.02" y="102.87" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="S1" gate="G$1" x="38.1" y="96.52" smashed="yes">
+<attribute name="NAME" x="64.77" y="104.14" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="101.6" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>

@@ -9028,6 +9028,99 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts" urn="urn:adsk.eagle:library:36791726">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SSM3K7002CFULF" urn="urn:adsk.eagle:footprint:36791730/1" library_version="1">
+<description>&lt;b&gt;SC-59&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.65" y="-0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="-0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.95" x2="1.5" y2="1.95" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.95" x2="1.5" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.95" x2="-1.5" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.95" x2="-1.5" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.625" x2="-1" y2="0.625" width="0.1" layer="21"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="0.4" y1="0.625" x2="1" y2="0.625" width="0.1" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.625" x2="0.2" y2="-0.625" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="-1.65" x2="-0.7" y2="-1.65" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="-1.65" x2="-0.6" y2="-1.65" width="0.1" layer="21" curve="180"/>
+<wire x1="-0.6" y1="-1.65" x2="-0.6" y2="-1.65" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="-1.65" x2="-0.7" y2="-1.65" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SSM3K7002CFULF" urn="urn:adsk.eagle:package:36791752/1" type="box" library_version="1">
+<description>&lt;b&gt;SC-59&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SSM3K7002CFULF"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="2SC2712-GR_F_" urn="urn:adsk.eagle:symbol:36791741/1" library_version="1">
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-3.81" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<circle x="8.89" y="0" radius="4.016" width="0.254" layer="94"/>
+<text x="13.97" y="1.27" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="-1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" visible="pad" length="short"/>
+<pin name="E" x="10.16" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="C" x="10.16" y="7.62" visible="pad" length="short" rot="R270"/>
+<polygon width="0.254" layer="94">
+<vertex x="8.382" y="-2.54"/>
+<vertex x="8.89" y="-2.032"/>
+<vertex x="9.398" y="-3.048"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2SC2712-GR_F_" urn="urn:adsk.eagle:component:36791763/1" prefix="Q" library_version="1">
+<description>&lt;b&gt;Vceo50V,Ic0.15A,Vce(sat)0.25V,hfe200to40 Toshiba 2SC2712-GR(F) NPN Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://toshiba.semicon-storage.com/ap-en/product/bipolar-transistor/bipolar-transistor/detail.2SC2712.html"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="2SC2712-GR_F_" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSM3K7002CFULF">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36791752/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Vceo50V,Ic0.15A,Vce(sat)0.25V,hfe200to40 Toshiba 2SC2712-GR(F) NPN Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2SC2712-GR(F)" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9085,6 +9178,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u"/>
 <part name="Y1" library="SamacSys_Parts" deviceset="MA-506_8.0000M-D3__ROHS" device=""/>
+<part name="Q5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" deviceset="2SC2712-GR_F_" device="" package3d_urn="urn:adsk.eagle:package:36791752/1"/>
+<part name="Q6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" deviceset="2SC2712-GR_F_" device="" package3d_urn="urn:adsk.eagle:package:36791752/1"/>
+<part name="Q7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" deviceset="2SC2712-GR_F_" device="" package3d_urn="urn:adsk.eagle:package:36791752/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9260,6 +9356,18 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="Y1" gate="G$1" x="-45.72" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-53.34" y="-16.51" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="-50.8" y="-16.51" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="Q5" gate="G$1" x="38.1" y="142.24" smashed="yes">
+<attribute name="NAME" x="52.07" y="143.51" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="52.07" y="140.97" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="Q6" gate="G$1" x="55.88" y="129.54" smashed="yes">
+<attribute name="NAME" x="69.85" y="130.81" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="69.85" y="128.27" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="Q7" gate="G$1" x="73.66" y="116.84" smashed="yes">
+<attribute name="NAME" x="87.63" y="118.11" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="87.63" y="115.57" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>

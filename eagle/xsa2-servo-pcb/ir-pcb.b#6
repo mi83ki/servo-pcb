@@ -1527,6 +1527,45 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
+<library name="SamacSys_Parts" urn="urn:adsk.eagle:library:36791726">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SSM3K7002CFULF" urn="urn:adsk.eagle:footprint:36791730/1" library_version="1">
+<description>&lt;b&gt;SC-59&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.65" y="-0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="-0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.95" dx="1" dy="0.5" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.2" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.95" x2="1.5" y2="1.95" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.95" x2="1.5" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.95" x2="-1.5" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.95" x2="-1.5" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.625" x2="-1" y2="0.625" width="0.1" layer="21"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="0.4" y1="0.625" x2="1" y2="0.625" width="0.1" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.625" x2="0.2" y2="-0.625" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="-1.65" x2="-0.7" y2="-1.65" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="-1.65" x2="-0.6" y2="-1.65" width="0.1" layer="21" curve="180"/>
+<wire x1="-0.6" y1="-1.65" x2="-0.6" y2="-1.65" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="-1.65" x2="-0.7" y2="-1.65" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SSM3K7002CFULF" urn="urn:adsk.eagle:package:36791752/1" type="box" library_version="1">
+<description>&lt;b&gt;SC-59&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="SSM3K7002CFULF"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1998,6 +2037,42 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Epson-Timing/MA-506-80000M-D3-ROHS?qs=l3LL3yk8ONZsQI36nmMkow%3D%3D" x="-43.18" y="-200.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-43.18" y="-201.16" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-43.18" y="-201.16" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" package="SSM3K7002CFULF" package3d_urn="urn:adsk.eagle:package:36791752/1" value="2SC2712-GR_F_" x="-50.8" y="-208.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Vceo50V,Ic0.15A,Vce(sat)0.25V,hfe200to40 Toshiba 2SC2712-GR(F) NPN Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2SC2712-GR(F)" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-50.8" y="-208.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-50.8" y="-208.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-50.8" y="-208.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" package="SSM3K7002CFULF" package3d_urn="urn:adsk.eagle:package:36791752/1" value="2SC2712-GR_F_" x="-53.34" y="-213.36" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Vceo50V,Ic0.15A,Vce(sat)0.25V,hfe200to40 Toshiba 2SC2712-GR(F) NPN Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2SC2712-GR(F)" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-53.34" y="-213.36" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-53.34" y="-213.36" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-53.34" y="-213.36" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q7" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791726" package="SSM3K7002CFULF" package3d_urn="urn:adsk.eagle:package:36791752/1" value="2SC2712-GR_F_" x="-55.88" y="-218.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Vceo50V,Ic0.15A,Vce(sat)0.25V,hfe200to40 Toshiba 2SC2712-GR(F) NPN Bipolar Transistor, 0.15 A, 50 V, 3-Pin SC-59" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2SC2712-GR(F)" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-55.88" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.88" y="-218.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.88" y="-218.44" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
