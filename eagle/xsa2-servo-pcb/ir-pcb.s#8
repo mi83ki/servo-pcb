@@ -9263,6 +9263,18 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/ap-en/product/bipolar-tr
 <sheets>
 <sheet>
 <plain>
+<text x="-17.78" y="96.52" size="1.778" layer="91">GND</text>
+<text x="5.08" y="96.52" size="1.778" layer="91">SDA</text>
+<text x="-17.78" y="93.98" size="1.778" layer="91">SCL</text>
+<text x="5.08" y="93.98" size="1.778" layer="91">TXD</text>
+<text x="-17.78" y="91.44" size="1.778" layer="91">RXD</text>
+<text x="5.08" y="91.44" size="1.778" layer="91">DTR</text>
+<text x="-17.78" y="88.9" size="1.778" layer="91">+3.3V</text>
+<text x="5.08" y="88.9" size="1.778" layer="91">IO16</text>
+<text x="-17.78" y="86.36" size="1.778" layer="91">IO17</text>
+<text x="5.08" y="86.36" size="1.778" layer="91">IO4</text>
+<text x="-17.78" y="83.82" size="1.778" layer="91">IO5</text>
+<text x="5.08" y="83.82" size="1.778" layer="91">+5V</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-27.94" y="5.08" smashed="yes">
@@ -9447,9 +9459,9 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/ap-en/product/bipolar-tr
 <attribute name="NAME" x="87.63" y="118.11" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="87.63" y="115.57" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="S1" gate="G$1" x="38.1" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.48" y="102.87" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="33.02" y="102.87" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="S1" gate="G$1" x="38.1" y="96.52" smashed="yes">
+<attribute name="NAME" x="64.77" y="104.14" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="101.6" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
