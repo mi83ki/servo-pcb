@@ -208,6 +208,39 @@
 <wire x1="-2.4" y1="2.6" x2="-2.4" y2="2.6" width="0.2" layer="21"/>
 <wire x1="-2.4" y1="2.6" x2="-2.6" y2="2.6" width="0.2" layer="21" curve="-180"/>
 </package>
+<package name="16SVF270M">
+<description>&lt;b&gt;E7&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<smd name="2" x="3.475" y="0" dx="4.15" dy="1.9" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.55" y1="5.15" x2="6.55" y2="5.15" width="0.1" layer="51"/>
+<wire x1="6.55" y1="5.15" x2="6.55" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="6.55" y1="-5.15" x2="-6.55" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-6.55" y1="-5.15" x2="-6.55" y2="5.15" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="1.5" x2="-4.15" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="2.7" x2="-3" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-3" y1="4.15" x2="4.15" y2="4.15" width="0.1" layer="51"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="4.15" y1="-4.15" x2="-3" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-3" y1="-4.15" x2="-4.15" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="-2.7" x2="-4.15" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="1.5" x2="-4.15" y2="2.7" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="2.7" x2="-3" y2="4.15" width="0.2" layer="21"/>
+<wire x1="-3" y1="4.15" x2="4.15" y2="4.15" width="0.2" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="-1.5" x2="-4.15" y2="-2.7" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="-2.7" x2="-3" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="-3" y1="-4.15" x2="4.15" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="4.15" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="0" x2="-6.3" y2="0" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="0" x2="-6.2" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="-6.2" y1="0" x2="-6.2" y2="0" width="0.2" layer="21"/>
+<wire x1="-6.2" y1="0" x2="-6.3" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="-6.3" y1="0" x2="-6.3" y2="0" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="0" x2="-6.2" y2="0" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 </library>
 <library name="SamacSys_Parts" urn="urn:adsk.eagle:library:36791783">
@@ -2068,11 +2101,47 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-60.96" y="-259.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-61.595" y="-260.985" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1u" x="-60.96" y="-264.16" smashed="yes">
-<attribute name="NAME" x="-61.595" y="-263.525" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-60.96" y="-264.16" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-60.96" y="-264.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-61.595" y="-266.065" size="1.27" layer="27"/>
+<element name="C7" library="SamacSys_Parts" package="16SVF270M" value="16S-VP82M" x="-55.88" y="-271.78" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Panasonic 82uF 16 V Polymer Aluminium Electrolytic Capacitor E7, OS-CON Series 2000h 8 x 6.9mm" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="16S-VP82M" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-55.88" y="-271.78" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.88" y="-271.78" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.88" y="-271.78" size="1.27" layer="27" align="center"/>
+</element>
+<element name="Q6" library="SamacSys_Parts" package="SOT95P237X112-3N" value="IRFML8244" x="-58.42" y="-279.4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="HEXFET Power MOSFET  25V" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IRFML8244" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="N/A" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFML8244?qs=bAKSY%2FctAC4ez%2FysLA2f0A%3D%3D" x="-58.42" y="-279.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-58.42" y="-279.4" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-58.42" y="-279.4" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="-60.96" y="-284.48" smashed="yes">
+<attribute name="NAME" x="-61.595" y="-283.845" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="77" x="-60.96" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-60.96" y="-284.48" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-61.595" y="-286.385" size="1.27" layer="27"/>
+</element>
+<element name="C6" library="SamacSys_Parts" package="16SVF270M" value="16S-VP82M" x="-55.88" y="-292.1" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Panasonic 82uF 16 V Polymer Aluminium Electrolytic Capacitor E7, OS-CON Series 2000h 8 x 6.9mm" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="7mm" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="16S-VP82M" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-55.88" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.88" y="-292.1" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.88" y="-292.1" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2085,11 +2154,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="16"/>
 <contactref element="JP1" pad="1"/>
 <wire x1="9.15" y1="-10.6" x2="-31.75" y2="-99.06" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="IC1" pad="15"/>
-<contactref element="JP1" pad="4"/>
-<wire x1="8.35" y1="-10.6" x2="-29.21" y2="-96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="JP1" pad="2"/>
@@ -2142,6 +2206,9 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C5" pad="1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="Q6" pad="2"/>
+<contactref element="R9" pad="1"/>
 <contactref element="C6" pad="2"/>
 <wire x1="-50.38" y1="-184.15" x2="-50.38" y2="-194.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.04" y1="-174.94" x2="-50.38" y2="-184.15" width="0" layer="19" extent="1-1"/>
@@ -2150,7 +2217,10 @@ design rules under a new name.</description>
 <wire x1="-61.81" y1="-238.76" x2="-50.38" y2="-194.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.81" y1="-243.84" x2="-61.81" y2="-238.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.81" y1="-254" x2="-61.81" y2="-243.84" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.11" y1="-264.16" x2="-61.81" y2="-254" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.405" y1="-271.78" x2="-61.81" y2="-254" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.47" y1="-280.35" x2="-52.405" y2="-271.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.81" y1="-284.48" x2="-59.47" y2="-280.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.405" y1="-292.1" x2="-61.81" y2="-284.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.75" y1="-123.19" x2="-45.5" y2="-167.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.21" y1="-114.3" x2="-31.75" y2="-123.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.67" y1="-114.3" x2="-29.21" y2="-114.3" width="0" layer="19" extent="1-1"/>
@@ -2187,10 +2257,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$10">
 <contactref element="IC1" pad="1"/>
-<contactref element="R1" pad="2"/>
-<contactref element="Q1" pad="1"/>
-<wire x1="-30.9" y1="-127" x2="-45.5" y2="-161.61" width="0" layer="19" extent="1-1"/>
-<wire x1="2.1" y1="-3.55" x2="-30.9" y2="-127" width="0" layer="19" extent="1-1"/>
+<contactref element="Q6" pad="1"/>
+<contactref element="R9" pad="2"/>
+<wire x1="-59.47" y1="-278.45" x2="-60.11" y2="-284.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.1" y1="-3.55" x2="-59.47" y2="-278.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="IC4" pad="1"/>
@@ -2199,13 +2269,15 @@ design rules under a new name.</description>
 <contactref element="IC7" pad="1"/>
 <contactref element="IC5" pad="1"/>
 <contactref element="IC6" pad="1"/>
-<contactref element="IC1" pad="2"/>
+<contactref element="IC1" pad="15"/>
+<contactref element="JP1" pad="4"/>
+<wire x1="-3.81" y1="-48.26" x2="-29.21" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.54" y1="-41.91" x2="-3.81" y2="-48.26" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.27" y1="-35.56" x2="-2.54" y2="-41.91" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-29.21" x2="-1.27" y2="-35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="-22.86" x2="0" y2="-29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="-16.51" x2="1.27" y2="-22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="2.1" y1="-4.35" x2="2.54" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="8.35" y1="-10.6" x2="2.54" y2="-16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED1" pad="1"/>
@@ -2339,10 +2411,19 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="R8" pad="1"/>
+<contactref element="C7" pad="1"/>
 <contactref element="C6" pad="1"/>
 <wire x1="-32.6" y1="-127" x2="-45.5" y2="-163.51" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.81" y1="-259.08" x2="-45.5" y2="-163.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.81" y1="-264.16" x2="-61.81" y2="-259.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.355" y1="-271.78" x2="-61.81" y2="-259.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.355" y1="-292.1" x2="-59.355" y2="-271.78" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R1" pad="2"/>
+<contactref element="Q1" pad="1"/>
+<contactref element="Q6" pad="3"/>
+<wire x1="-30.9" y1="-127" x2="-45.5" y2="-161.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.37" y1="-279.4" x2="-45.5" y2="-161.61" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
