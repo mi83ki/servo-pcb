@@ -9361,7 +9361,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="LED5" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791783" deviceset="OSI5FU5111C-40" device="" package3d_urn="urn:adsk.eagle:package:36791786/1"/>
 <part name="LED6" library="SamacSys_Parts" library_urn="urn:adsk.eagle:library:36791783" deviceset="OSI5FU5111C-40" device="" package3d_urn="urn:adsk.eagle:package:36791786/1"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2" value="AVR ISP"/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="/90" package3d_urn="urn:adsk.eagle:package:22475/2" value="FTDI Basic"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2" value="FTDI Basic"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X7" device="" package3d_urn="urn:adsk.eagle:package:22478/2" value="Stacking Connector"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

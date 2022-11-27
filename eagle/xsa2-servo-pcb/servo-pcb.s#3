@@ -9566,7 +9566,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="27"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="27"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="SamacSys_Parts" deviceset="2SC2712-GR_F_" device=""/>
 <part name="Q3" library="SamacSys_Parts" deviceset="2SC2712-GR_F_" device=""/>
@@ -9594,7 +9594,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.01uF"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J3" library="SamacSys_Parts" deviceset="WJEK254-2.54-02P-140-00A" device=""/>
@@ -10493,6 +10493,10 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="-63.5" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="60.96" x2="-48.26" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="B4,A9_VBUS"/>
+<wire x1="-63.5" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="48.26" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-48.26" y="60.96"/>
 </segment>
 </net>
 <net name="VDD" class="0">
