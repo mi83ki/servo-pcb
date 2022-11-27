@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -3721,35 +3721,35 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="6"/>
 <polygon width="0.1524" layer="1">
 <vertex x="11.28531875" y="41.402"/>
-<vertex x="1.016" y="23.373646875"/>
-<vertex x="1.016" y="18.553040625"/>
+<vertex x="4.826" y="30.0623125"/>
+<vertex x="4.826" y="11.92695625"/>
 <vertex x="11.684" y="0"/>
 <vertex x="14.478" y="0"/>
 <vertex x="14.478" y="8.128"/>
 <vertex x="33.02" y="8.128"/>
 <vertex x="33.02" y="0"/>
 <vertex x="35.814" y="0"/>
-<vertex x="46.482" y="18.553040625"/>
-<vertex x="46.482" y="23.588871875"/>
+<vertex x="42.418" y="11.485215625"/>
+<vertex x="42.418" y="30.56835"/>
 <vertex x="36.109796875" y="41.402"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="1.016" y="23.55111875"/>
-<vertex x="1.016" y="18.35888125"/>
+<vertex x="4.826" y="30.107865625"/>
+<vertex x="4.826" y="11.8021375"/>
 <vertex x="11.684" y="0"/>
 <vertex x="14.478" y="0"/>
 <vertex x="14.478" y="7.874"/>
 <vertex x="33.02" y="7.874"/>
 <vertex x="33.02" y="0"/>
 <vertex x="35.814" y="0"/>
-<vertex x="46.482" y="18.358884375"/>
-<vertex x="46.482" y="23.551115625"/>
+<vertex x="42.418" y="11.365025"/>
+<vertex x="42.418" y="30.544978125"/>
 <vertex x="36.10919375" y="41.402"/>
 <vertex x="11.38880625" y="41.402"/>
 </polygon>
 <via x="32.004" y="38.6334" extent="1-16" drill="0.35"/>
 <via x="34.544" y="38.608" extent="1-16" drill="0.35"/>
-<via x="33.3756" y="33.5026" extent="1-16" drill="0.35"/>
+<via x="33.6296" y="33.5026" extent="1-16" drill="0.35"/>
 <via x="23.368" y="35.56" extent="1-16" drill="0.35"/>
 <via x="29.972" y="29.972" extent="1-16" drill="0.35"/>
 <via x="28.702" y="20.574" extent="1-16" drill="0.35"/>
@@ -4663,6 +4663,29 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,dff10344960e7964"/>
+<approved hash="4,1,dba962be2c7e93f2"/>
+<approved hash="4,1,7fecdd99c1365ac2"/>
+<approved hash="4,1,83445fea799516ff"/>
+<approved hash="5,16,5417ba37f1eac234"/>
+<approved hash="5,16,20b416d158b7b32e"/>
+<approved hash="5,16,5a2b6bc612d59667"/>
+<approved hash="5,16,00a7be4542dbe568"/>
+<approved hash="5,16,6237399927fb7b06"/>
+<approved hash="5,16,85b87e1ac5f68909"/>
+<approved hash="5,16,640f4e6a1c0c6b95"/>
+<approved hash="5,16,8cacfe8ca951868f"/>
+<approved hash="19,1,159d1a0660606ffb"/>
+<approved hash="19,16,11d6c6665eadc5bd"/>
+<approved hash="19,16,248b45ecab4d84f0"/>
+<approved hash="3,16,59a93b433a8c5866"/>
+<approved hash="3,16,7920eb4a9544072e"/>
+<approved hash="3,16,72196e4e768c83e5"/>
+<approved hash="3,16,93fa1d041d64939a"/>
+<approved hash="3,16,9e648c1a8f9c9de2"/>
+<approved hash="3,16,6ee4050a45727fb0"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
