@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "ServoPCB",
+			"path": "src/ServoPCB"
+		}
+	],
+	"settings": {}
+}
