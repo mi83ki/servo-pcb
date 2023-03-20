@@ -1,0 +1,3 @@
+[submodule "src/ServoPCB/lib/ArduinoCommon"]
+	path = src/ServoPCB/lib/ArduinoCommon
+	url = https://github.com/mi83ki/ArduinoCommon.git
